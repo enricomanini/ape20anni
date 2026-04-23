@@ -1,0 +1,11 @@
+{
+  "name": "Festa dei Vent'anni — A.P.E. ODV",
+  "short_name": "APE 20 anni",
+  "icons": [
+    { "src": "images/favicon/favicon-192x192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "images/favicon/favicon-512x512.png", "sizes": "512x512", "type": "image/png" }
+  ],
+  "theme_color": "#F086A4",
+  "background_color": "#DEDAEA",
+  "display": "standalone"
+}
