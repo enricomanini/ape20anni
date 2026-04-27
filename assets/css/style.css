@@ -155,6 +155,11 @@ body {
   border-radius: 2px;
 }
 
+a {
+  transition: all 0.25s ease;
+}
+
+
 /* ─── HERO (full-bleed image) ─── */
 .hero {
   position: relative;
@@ -1260,12 +1265,16 @@ body.lightbox-open {
   color: var(--primary);
   font-weight: 700;
   text-decoration: none;
+  display: inline-block;
+  padding-left: 0;
+  padding-right: 0;
   border-bottom: 2px solid transparent;
-  transition: border-color 0.2s ease;
+  transition: border-bottom 0.25s ease;
+  padding-bottom: 1px;
 }
 
 .convenzioni-hotel a:hover {
-  border-bottom-color: var(--primary);
+  border-bottom: 2px solid var(--primary);
 }
 
 .convenzioni-note {
@@ -1654,4 +1663,19 @@ footer {
   .sidenav {
     display: none;
   }
+}
+
+a.link {
+  color: var(--primary);
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+a.link:hover {
+  /* text-decoration: underline; */
+  padding-left: 4px;
+  padding-right: 4px;
 }
