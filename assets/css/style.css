@@ -116,6 +116,10 @@ body {
   text-align: center;
 }
 
+.text-grey {
+  color: #a5a0a4;
+}
+
 .section-label {
   font-size: 0.75rem;
   font-weight: 600;
@@ -805,6 +809,11 @@ body {
   height: 68px;
 }
 
+/* Tecnici: più piccoli */
+.sponsor-tier--tecnici .sponsor-item {
+  width: 200px;
+  height: 80px;
+}
 
 .sponsor-placeholder {
   font-size: 0.85rem;
