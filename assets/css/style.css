@@ -789,11 +789,19 @@ a {
   opacity: 0.85;
 }
 
+.sponsor-item a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 .sponsor-item img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: contain;
+  object-position: center;
 }
 
 /* Oro: grande e isolato */
